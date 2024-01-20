@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://media.istockphoto.com/id/506102024/vector/mythological-phoenix-or-phenix-on-the-beige-background.jpg?s=612x612&w=is&k=20&c=9Z-DkcBc-sTkD_xoI1olUMGHO2_SQj013M37neQhOdg=");
+    
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14PX;
+    text-align: center;
+}
+.Clock{
+     display: flex;
+}
+.Clock div{
+    margin: 5px;
+    position: relative;
+}
+.Clock span{
+    width: 100px;
+    height: 80px;
+    background-color: orange;
+    opacity: .7;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 50px;
+}
+.Clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing:  1.5px; 
+    background-color: yellow;
+    opacity: 0.98;
+}
+.Clock #ampm{
+    bottom: 0;
+    position: absolute; 
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background:rgba(237, 155, 32, 0.955)
+ } 
